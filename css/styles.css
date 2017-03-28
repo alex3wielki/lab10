@@ -1,7 +1,7 @@
 /* Base styles */
 
 body {
-    background: #999;
+    background: azure;
     min-width: 480px;
     color: #333;
 }
@@ -15,7 +15,7 @@ body {
 /* Header */
 
 header {
-    background: #ccc;
+    background: hotpink;
     padding-top: 1em;
 }
 
@@ -48,7 +48,7 @@ header nav a {
 }
 
 header nav a:hover {
-    background: #eee;
+    background: rgba(200, 200, 200, 0.7);
     color: #000;
 }
 
@@ -63,16 +63,13 @@ header nav.floater {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-header nav.floater2 {
-    position: fixed;
-    top: 0;
-    width: 90%;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 header nav.floater ul li {
     background-color: transparent;
+}
+
+header nav.floater ul li a {
+    padding: 1em 0.5em;
+    /*margin: 0;*/
 }
 
 
@@ -144,7 +141,7 @@ header h1 a {
 
 footer {
     /* base styles */
-    background: #ccc;
+    background: hotpink;
     padding: 1em;
 }
 
